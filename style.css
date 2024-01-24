@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-width: 100vh;
+    min-height: 100vh;
+
+}
+
+.logo {
+    font-family: 'Norse', Times, serif;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+
+
+}
+
+.box1 {
+    min-width: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("halie.jpg");
+    background-size: cover;
+    flex: 0;
+    position: relative;
+    
+}
+.box1> .logo{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+   
+    padding: 10px;
+   text-align: center;
+   color: #fff;
+    font-size: 100px;
+    position: absolute;
+    top:140px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.logo>img{
+    width: 100px;
+}
+.box2 {
+    display: flex;
+   
+    
+
+    flex-direction: column;
+    
+
+    
+    
+
+
+}
+
+.right2 {
+    display: flex;
+    padding: 50px 50px;
+   
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.big {
+    display: flex;
+    gap: 100px;
+    padding: 15px 0px;
+}
+
+.right3 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 50px 50px;
+    align-items: baseline;
+    background-color: #f9fafb;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 5px 35px;
+    background-color: #596D48;
+    border-radius: 10px;
+    color: #f9fafb;
+}
+
+.right3>p {
+    font-size: 1.5em;
+}
+
+form {
+    font-size: 1.5em;
+    padding-right: 25px;
+}
+
+.formbox>input {
+    
+    width: 35vh;
+    height: 30px;
+    font-size: 16px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+.right1 {
+    padding: 25px 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+width: 100%;
+background-color: #f9fafb;
+
+flex-grow: 2;
+}
+
+.right3>p> a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
+}
